@@ -1,12 +1,16 @@
 import subprocess
+import datetime
+
+now_string = datetime.datetime.now().strftime("%y_%d_%m_%h_%m")
 
 commands_to_run = [
 # 'pip3 install shinylive',
 # 'shiny create .'
-'shinylive export . docs',
-'git add .',
-'git commit -m "deploying_to_github"',
-'git push']
+"shinylive export . docs",
+"git add .",
+f"git commit -m 'deploying_to_github${now_string}'",
+"git push"]
+
 
 
 
