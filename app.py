@@ -30,7 +30,7 @@ app_ui = ui.page_fluid(
         tags.style((Path(__file__).parent / "style.css").read_text()),
     ),
     div(
-        h3("Shiny Wordle"),
+        h3("Shiny souh"),
         ui.output_ui("previous_guesses"),
         ui.output_ui("current_guess"),
         ui.output_ui("endgame"),
@@ -85,7 +85,7 @@ app_ui = ui.page_fluid(
     });
     """
     ),
-    title="Shiny Wordle",
+    title="Shiny sdsa",
 )
 
 
