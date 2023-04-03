@@ -9,7 +9,8 @@ commands_to_run = [
 "shinylive export . docs",
 "git add .",
 f"git commit -m 'deploying_to_github${now_string}'",
-"git push"]
+"git push",
+f"echo https://drpawelo.github.io/playground-shiny-python/"]
 
 
 
